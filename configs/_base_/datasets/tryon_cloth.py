@@ -1,6 +1,6 @@
 # dataset settings
-dataset_type = 'ADE20KDataset'
-data_root = '/home/work/ADEChallengeData2016'
+dataset_type = 'TryonClothDataset'
+data_root = '/home/work/DeepFashion2_tryon'
 crop_size = (512, 512)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
